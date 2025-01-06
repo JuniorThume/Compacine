@@ -47,6 +47,10 @@ Siga as instruções abaixo para configurar e rodar o projeto em seu ambiente lo
    npm install (ou npm i)
    ```
 
+## Dados .env
+
+    PORT = 3000
+    
 ## Executando as migrations:
 
     npm run typeorm -- -d src/shared/infra/typeorm/index.ts migration:run
@@ -81,6 +85,4 @@ Siga as instruções abaixo para configurar e rodar o projeto em seu ambiente lo
 
    ![TestPostPut](https://i.imgur.com/f3LOJEr.png)
 
-# Dados .env
 
-    PORT = 3000
